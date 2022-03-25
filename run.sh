@@ -11,6 +11,8 @@ declare -a arr5=("0.01" "0.2" "0.5") #beta
 # declare -a arr4=("0.01") #alpha
 # declare -a arr5=("0.01") #beta
 
+rm -rf output/*
+
 for i in "${arr1[@]}"
 do
     for j in "${arr2[@]}"
@@ -29,3 +31,5 @@ do
         done
     done
 done
+
+python3 analysis.py
