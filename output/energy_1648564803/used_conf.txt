@@ -1,0 +1,29 @@
+CONFIGURATION:
+dataset = energy
+output = /home/cserv1_a/soc_ug/sc18cd/Documents/BDSCW3/output/energy_1648564803
+==============
+numSimulations = 1
+dataset = energy
+numAgents = 1000
+numPlans = 10
+planDim = 144
+numIterations = 50
+numChildren = 3
+--------------
+alpha = 0.01
+beta = 0.01
+global cost function = variance
+local cost function = index
+goal signal = null
+--------------
+permutationID = 0
+reorganizationSeed = 0
+permutationSeed = 0
+permutationFile = null
+reorganizationPeriod = 3
+memorizationOffset = 5
+reorganizationStrategy = GLOBAL_COST_REDUCTION
+convergenceTolerance = 0.5
+--------------
+loggingLevel = SEVERE
+Selected Loggers: GlobalResponseVectorLogger, TerminationLogger, PlanFrequencyLogger, UnfairnessLogger, GlobalComplexCostLogger, SelectedPlanLogger, ReorganizationLogger, WeightsLogger, LocalCostMultiObjectiveLogger, GlobalCostLogger, VisualizerLogger
